@@ -1,0 +1,35 @@
+header {
+    text-align: center;
+    padding-top: 7rem;
+    font-size: x-large;
+}
+
+.cv-button {
+    margin-top: 2rem;
+}
+
+.social-links {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    
+}
+
+.social-links a {
+    font-size: 2rem;
+    padding: 0.5rem 0.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.my-photo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+img {
+    border-radius: 50%;
+    width: 20rem;
+}
