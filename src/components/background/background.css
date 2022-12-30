@@ -1,0 +1,12 @@
+.particles-box {
+    position: fixed;
+    z-index: -1;
+  }
+  
+  #particles-background, #particles-foreground {
+  left: -50%;
+  top: -40%;
+  height: 200%;
+  width: 200%;
+  transform: scale3d(.5, .6, 1);
+  }
