@@ -29,7 +29,7 @@ header {
     margin-top: 20px;
 }
 
-img {
+.my-photo-container > img {
     border-radius: 50%;
     width: 20rem;
 }

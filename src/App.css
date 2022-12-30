@@ -27,16 +27,19 @@ html {
 body {
   background: var(--color-bg);
   color: var(--color-white);
-  line-height: 1.7;
 }
 
 h1, h2, h3, h4, h5 {
-  font-weight: 400;
+  font-weight: 600;
+}
+
+.container > h1 {
+  font-weight: 500;
+  margin-bottom: 2rem;
 }
 
 .container > h2 {
-  margin-bottom: 0;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 a {
@@ -80,10 +83,14 @@ img {
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
-  height: 100vh;
+  min-height: 100vh;
   text-align: center;
 }
 
 .text-light {
   color: var(--color-light);
+}
+
+.text-primary {
+  color: var(--color-primary);
 }

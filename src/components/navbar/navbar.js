@@ -10,7 +10,7 @@ const navLinks = [
     {to: "top", icon: <AiOutlineHome /> },
     {to: "about", icon: <AiOutlineUser /> },
     {to: "skills", icon: <BiBookAlt /> },
-    {to: "experiences", icon: <SiAtom /> },
+    {to: "projects", icon: <SiAtom /> },
     {to: "contact", icon: <RiMessage3Line /> },
 ]
 
@@ -22,7 +22,7 @@ const Navbar = () => {
         <nav>
             {
                navLinks.map((item, i) => {
-                return <Link className="nav-bar-link" to={item.to} spy activeClass="nav-bar-link-active" >{item.icon}</Link>
+                return <Link key={item.to} className="nav-bar-link" to={item.to} spy activeClass="nav-bar-link-active" offset={-30}>{item.icon}</Link>
                }) 
             }
         </nav>

@@ -2,14 +2,13 @@ import React from "react";
 import './header.css';
 import {AiFillGithub, AiOutlineLinkedin} from "react-icons/ai"
 import {SiCodewars} from "react-icons/si"
-import Photo from "../../assets/photo.jpg"
 
 
 const Header = () => {
     return (
         <header className="container" id="top">
             <h5>Hello, I'm</h5>
-            <h2>Adam Vincze</h2>
+            <h2>Ádám Vincze</h2>
             <h5 className="text-light">Computer Science Student</h5>
             <a className="btn cv-button" download>DOWNLOAD CV</a>
             <div className="social-links">
@@ -18,7 +17,7 @@ const Header = () => {
                 <a className="btn btn-primary"><AiOutlineLinkedin /></a>
             </div>
             <div className="my-photo-container">
-                <img src={Photo} alt="my photo"></img>
+                <img src="/images/photo.jpg" alt="my photo"></img>
             </div>
             
         </header>
