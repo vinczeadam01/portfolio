@@ -9,7 +9,7 @@ const Header = () => {
         <header className="container" id="top">
             <h5>Hello, I'm</h5>
             <h2>Ádám Vincze</h2>
-            <h5 className="text-light">Computer Science Student</h5>
+            <h5 className="text-light font-weight-400">Computer Science Student</h5>
             <a className="btn cv-button" download>DOWNLOAD CV</a>
             <div className="social-links">
                 <a href="https://github.com/vinczeadam01" target="_blank" className="btn btn-primary"><AiFillGithub /></a>

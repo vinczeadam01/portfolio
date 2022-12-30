@@ -25,9 +25,9 @@ export const projectsData = [
     },
     {
         id: "movie-database",
-        name: "Finance app",
+        name: "Movie webpage",
         img: "/images/project.jpg",
-        technology: "NodeJS, Express.JS, PostgreSQL",
+        technology: "Express.JS, PostgreSQL",
         bio: "Flutter cross-platform application for tracking your spending habits.",
         github: "https://github.com/vinczeadam01/finance-app"
     },
