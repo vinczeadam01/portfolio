@@ -1,6 +1,8 @@
 import React, {useRef} from "react";
 import "./contact.css"
 import {TbMessageDots} from "react-icons/tb"
+import {AiOutlineMail} from "react-icons/ai"
+import {BiMobileAlt} from "react-icons/bi"
 
 const Contact = () => {
     const form = useRef()
@@ -18,16 +20,20 @@ const Contact = () => {
             <div className="contact-container">
                 <div className="personal-container">
                     <div>
-                        <h4>Email</h4>
-                        <p>adam.vincze01@gmail.com</p>
+                        <AiOutlineMail />
+                        <div>
+                            <h4>Email</h4>
+                            <p>adam.vincze01@gmail.com</p>
+                        </div>
+                        <a href="mailto: adam.vincze01@gmail.com">Send a message</a>
                     </div>
                     <div>
-                        <h4>Messenger</h4>
-                        <p>vinczeadam</p>
-                    </div>
-                    <div>
-                        <h4>Mobile</h4>
-                        <p>+36304476315</p>
+                        <BiMobileAlt />
+                        <div>
+                            <h4>Mobile</h4>
+                            <p>+36304476315</p>
+                        </div>
+                        <a href="tel: +36304476315">Call me</a>
                     </div>
                 </div>
                 <div>
