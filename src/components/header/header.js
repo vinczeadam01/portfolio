@@ -24,14 +24,14 @@ const Header = () => {
                 />
             </div>
             
-            <a className="btn cv-button" href="/images/photo.jpg">DOWNLOAD CV</a>
+            <a className="btn cv-button" href="./images/photo.jpg">DOWNLOAD CV</a>
             <div className="social-links">
                 <a href="https://github.com/vinczeadam01" target="_blank" rel="noreferrer" className="btn btn-primary"><AiFillGithub /></a>
                 <a href="https://www.codewars.com/users/vinczeadam01" target="_blank" rel="noreferrer" className="btn btn-primary"><SiCodewars /></a>
-                <a href="/images/photo.jpg" className="btn btn-primary"><AiOutlineLinkedin /></a>
+                <a href="./images/photo.jpg" className="btn btn-primary"><AiOutlineLinkedin /></a>
             </div>
             <div className="my-photo-container">
-                <img src="/images/photo.jpg" alt="me"></img>
+                <img src="./images/photo.jpg" alt="me"></img>
             </div>
             
         </header>

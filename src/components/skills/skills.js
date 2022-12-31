@@ -19,7 +19,7 @@ const Skills = () => {
                                     {skillsData[category].map(item => {
                                         return (
                                             <div key={item} className="skill-card">
-                                                <img alt={item} src={`/images/skills/${item.toLowerCase()}.svg`}></img>
+                                                <img alt={item} src={`./images/skills/${item.toLowerCase()}.svg`}></img>
                                                 <p>{item}</p>
                                             </div>
                                         )
