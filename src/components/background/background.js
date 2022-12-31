@@ -10,7 +10,7 @@ export default class Background extends React.Component {
     const s = document.createElement('script');
     s.type = 'text/javascript';
     s.async = true;
-    s.src = "/utils/particles.js"
+    s.src = "./utils/particles.js"
     this.instance.appendChild(s);
   }
 
