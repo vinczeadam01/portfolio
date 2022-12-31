@@ -13,18 +13,15 @@ const Projects = () => {
                 {
                     projectsData.map((item) => {
                         return (
-                            <a
-                            href={item.github}
-                            key={item.id}
-                            className="project-card"
-                            >
+                            <div key={item.id} className="project-card">
                                 <img alt="project gallery" src={item.img} />
                                 <div className="details">
                                     <p className="text-primary">{item.technology}</p>
                                     <b>{item.name}</b>
                                     <p>{item.bio}</p>
+                                    <a className="btn btn-primary project-github-button" href={item.github}>GitHub</a>
                                 </div>
-                            </a>
+                            </div>
                         )
                     })
                 }
