@@ -19,7 +19,7 @@ export default class Background extends React.Component {
         <>
             <div id="particles-background" className="particles-box"></div>
             <div id="particles-foreground" className="particles-box"></div>
-            <div ref={el => (this.instance = el)} />;
+            <div ref={el => (this.instance = el)} />
         </>
     )
   }

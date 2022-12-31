@@ -4,6 +4,15 @@ header {
     font-size: x-large;
 }
 
+.typed-container * {
+    display: inline;
+}
+
+.typed-container h6 {
+    font-weight: 400;
+    color: var(--color-light)
+}
+
 .cv-button {
     margin-top: 2rem;
 }
