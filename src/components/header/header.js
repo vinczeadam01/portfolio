@@ -16,7 +16,7 @@ const Header = () => {
             <div className="typed-container">
                 <Typewriter
                     options={{
-                        strings: "<h5>Hello, I'm</h5><br/><h2>Adam Vincze</h2><br/><h6>Computer Science Student</h6>",
+                        strings: "<h5>Hello, I'm</h5><br/><h2>Ádám Vincze</h2><br/><h6>Computer Science Student</h6>",
                         autoStart: true,
                         delay: 100,
                         
@@ -24,11 +24,11 @@ const Header = () => {
                 />
             </div>
             
-            <a className="btn cv-button" href="./images/photo.jpg">DOWNLOAD CV</a>
+            <a className="btn cv-button" href="./vincze_adam_cv.pdf" download>DOWNLOAD CV</a>
             <div className="social-links">
                 <a href="https://github.com/vinczeadam01" target="_blank" rel="noreferrer" className="btn btn-primary"><AiFillGithub /></a>
                 <a href="https://www.codewars.com/users/vinczeadam01" target="_blank" rel="noreferrer" className="btn btn-primary"><SiCodewars /></a>
-                <a href="./images/photo.jpg" className="btn btn-primary"><AiOutlineLinkedin /></a>
+                <a href="https://www.linkedin.com/in/ádám-vincze-27a588260" className="btn btn-primary"><AiOutlineLinkedin /></a>
             </div>
             <div className="my-photo-container">
                 <img src="./images/photo.jpg" alt="me"></img>

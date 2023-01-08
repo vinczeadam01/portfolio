@@ -19,7 +19,7 @@ const Projects = () => {
                                     <p className="text-primary">{item.technology}</p>
                                     <b>{item.name}</b>
                                     <p>{item.bio}</p>
-                                    <a className="btn btn-primary project-github-button" href={item.github}>GitHub</a>
+                                    <a target="_blank" rel="noreferrer" className="btn btn-primary project-github-button" href={item.github}>GitHub</a>
                                 </div>
                             </div>
                         )

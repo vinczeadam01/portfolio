@@ -18,7 +18,7 @@ export const projectsData = [
     {
         id: "finance-app",
         name: "Finance app",
-        img: "./images/project.jpg",
+        img: "./images/projects/finance_flutter.png",
         technology: "Flutter",
         bio: "Flutter cross-platform application for tracking your spending habits.",
         github: "https://github.com/vinczeadam01/finance-app"
@@ -28,15 +28,15 @@ export const projectsData = [
         name: "Movie webpage",
         img: "./images/projects/movie.png",
         technology: "Express.JS, PostgreSQL",
-        bio: "Flutter cross-platform application for tracking your spending habits.",
+        bio: "A webpage like IMDB. It stores movies, series, and visitors can also rate them.",
         github: "https://github.com/vinczeadam01/finance-app"
     },
     {
         id: "hotel-booking",
         name: "Hotel booking",
-        img: "./images/project.jpg",
+        img: "./images/projects/hotel.png",
         technology: "PHP and MySql",
-        bio: "Flutter cross-platform application for tracking your spending habits.",
+        bio: "PHP and MySQL app for booking hotel rooms and managing guest's data.",
         github: "https://github.com/vinczeadam01/finance-app"
     },
 ]

@@ -1,7 +1,10 @@
 header {
     text-align: center;
-    padding-top: 8% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
     font-size: x-large;
+    height: 100vh;
 }
 
 .typed-container * {
@@ -14,7 +17,7 @@ header {
 }
 
 .cv-button {
-    margin-top: 2rem;
+    margin: 2rem auto 0 auto;
 }
 
 .social-links {
@@ -41,4 +44,5 @@ header {
 .my-photo-container > img {
     border-radius: 50%;
     width: 20rem;
+    
 }
