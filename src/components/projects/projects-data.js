@@ -29,7 +29,7 @@ export const projectsData = [
         img: "./images/projects/movie.png",
         technology: "Express.JS, PostgreSQL",
         bio: "A webpage like IMDB. It stores movies, series, and visitors can also rate them.",
-        github: "https://github.com/vinczeadam01/finance-app"
+        github: "https://github.com/vinczeadam01/movie"
     },
     {
         id: "hotel-booking",
@@ -37,6 +37,6 @@ export const projectsData = [
         img: "./images/projects/hotel.png",
         technology: "PHP and MySql",
         bio: "PHP and MySQL app for booking hotel rooms and managing guest's data.",
-        github: "https://github.com/vinczeadam01/finance-app"
+        github: "https://github.com/vinczeadam01/hotel"
     },
 ]
